@@ -3,6 +3,7 @@
 A structured SQL database for managing and analyzing cardiovascular health data.
 
 📘 Table of Contents
+
 Overview
 Database Structure
 Tables and Relationships
@@ -12,6 +13,7 @@ How to Run
 Use Cases
 
 🧬 Overview
+
 CardioHealthDB is a SQL Server–based database designed to store, organize, and analyze medical information related to cardiovascular health.
 It includes patient demographics, medical measurements, lifestyle factors, clinical status, and heart‑disease diagnoses.
 This structure is suitable for:
@@ -22,6 +24,7 @@ Academic assignments
 SQL practice
 
 🗂 Database Structure
+
 The database contains five core tables:
 Patients – Basic demographic and physical data
 Measurements – Periodic medical measurements
@@ -30,6 +33,7 @@ Lifestyle – Smoking, alcohol, and physical activity
 Diagnosis – Cardiovascular disease indicator
 
 📊 Tables and Relationships
+
 Patients
 Stores essential patient information.
 Fields:
@@ -70,6 +74,7 @@ Relationship:
 1:1 with Patients
 
 🔒 Data Integrity & Constraints
+
 The database enforces strict validation rules, including:
 SystolicBP > DiastolicBP
 Valid ranges for height, weight, BMI, and blood pressure
@@ -78,6 +83,7 @@ Foreign key constraints linking all tables to Patients
 These ensure clean, reliable, and medically consistent data.
 
 🧪 Sample Data
+
 The script includes:
 20 patients
 Measurements for each patient
@@ -85,11 +91,13 @@ Medical status, lifestyle, and diagnosis entries
 All sample data is inserted automatically.
 
 ▶️ How to Run
+
 Open the script in SQL Server Management Studio (SSMS).
 Execute the script to create the database CardioHealthDB.
 All tables, constraints, and sample data will be created automatically.
 
 🎯 Use Cases
+
 This database is ideal for:
 Cardiovascular risk analysis
 Machine learning model training
